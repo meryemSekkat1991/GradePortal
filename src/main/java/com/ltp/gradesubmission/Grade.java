@@ -9,13 +9,15 @@ public class Grade {
     private String id;
 
 
-    public Grade() {
-        this.id = UUID.randomUUID().toString();
-    }
 
     public String getName() {
         return name;
     }
+
+    public Grade() {
+        this.id = UUID.randomUUID().toString();
+    }
+
 
     public void setName(String name) {
         this.name = name;
